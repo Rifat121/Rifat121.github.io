@@ -390,12 +390,14 @@ header {
 
 .portfolio {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 
 .portfolio__item {
     background: var(--clr-accent);
     overflow: hidden;
+    height: 90%;
 }
 
 .portfolio__img {
