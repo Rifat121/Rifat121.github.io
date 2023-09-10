@@ -142,6 +142,7 @@ header {
 
 .logo {
     max-width: 100px;
+    height: max-content;
 }
 
 .nav {
@@ -439,11 +440,13 @@ header {
 
 .footer__link {
     font-weight: var(--fw-bold);
+    text-decoration: none;
+    color: var(--clr-dark);
 }
 
 .footer__link:hover,
 .social-list__link:hover {
-    opacity: .7;
+    opacity: .8;
 }
 
 .footer__link:hover {
