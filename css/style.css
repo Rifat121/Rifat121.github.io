@@ -421,6 +421,16 @@ header {
     opacity: .5;
 }
 
+.portfolio-item-individual{
+    padding: 5rem;
+}
+
+.portfolio-item-individual img{
+    display: flex;
+    align-items: center;
+    height: 200px;
+    width: 800px;
+}
 
 /* footer */
 
