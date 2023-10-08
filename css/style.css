@@ -445,8 +445,10 @@ header {
 
 .portfolio__img:hover,
 .portfolio__item:focus .portfolio__img {
-    transform: scale(1.2);
+    /* transform: scale(1.2); */
     opacity: .5;
+    
+    transform: rotateY(30deg); /* Adjust rotation and translation for effect */
 }
 
 .portfolio-item-individual{
@@ -464,6 +466,19 @@ header {
     font-size: var(--fs-small);
     text-align: center;
 }
+.content-element {
+    opacity: 0;
+    transform: translateY(150px); /* Initial position or scale */
+    transition: opacity 2s ease, transform 1.2s ease;
+}
+
+
+.content-element.animate {
+    opacity: 1; /* Example: Make the element fully visible */
+    transform: translateY(0); /* Example: Return to the original position */
+}
+
+
 
 /* footer */
 
@@ -511,3 +526,4 @@ header {
 .social-list__link {
     padding: .5em;
 }
+
