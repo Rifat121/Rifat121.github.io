@@ -4,8 +4,6 @@
     box-sizing: border-box;
 }
 
-/* Custom Properties, update these for your own design */
-
 :root {
     --ff-primary: 'Source Sans Pro', sans-serif;
     --ff-secondary: 'Source Code Pro', monospace;
@@ -50,6 +48,7 @@ body {
     font-family: var(--ff-primary);
     font-size: var(--fs-body);
     line-height: 1.6;
+    /* overflow-x: hidden; */
 }
 
 section {
@@ -470,6 +469,7 @@ header {
     opacity: 0;
     transform: translateY(150px); /* Initial position or scale */
     transition: opacity 2s ease, transform 1.2s ease;
+    
 }
 
 
